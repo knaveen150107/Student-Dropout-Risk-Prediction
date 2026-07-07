@@ -1,0 +1,23 @@
+artifact_path: /home/naveen/Desktop/Student_Dropout/mlruns/2/models/m-30e1395e5408485691f34283397aa531/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.13.14
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.14.0
+model_id: m-30e1395e5408485691f34283397aa531
+model_size_bytes: 10023
+model_uuid: m-30e1395e5408485691f34283397aa531
+prompts: null
+run_id: 5996885d830f456eb93d676e2cd3c3db
+utc_time_created: '2026-07-06 21:33:44.023285'
