@@ -7,10 +7,9 @@ import joblib
 # Load Saved Model
 # ==========================================================
 
-model = joblib.load("/home/naveen/Desktop/Student_Dropout/model/logistic_regression_model.pkl")
-scaler = joblib.load("/home/naveen/Desktop/Student_Dropout/model/scaler.pkl")
-label_encoder = joblib.load("/home/naveen/Desktop/Student_Dropout/model/label_encoder.pkl")
-
+model = joblib.load("model/logistic_regression_model.pkl")
+scaler = joblib.load("model/scaler.pkl")
+label_encoder = joblib.load("model/label_encoder.pkl")
 # ==========================================================
 # FastAPI App
 # ==========================================================
